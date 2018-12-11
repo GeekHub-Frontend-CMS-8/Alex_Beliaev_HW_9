@@ -1,0 +1,48 @@
+@import "../variables"
+
+
+.header_nav
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-wrap: nowrap
+
+.nav-btn
+  display: block
+  width: 50px
+  height: 50px
+  border-radius: 50%
+  position: relative
+
+  &:hover
+    background: #000
+    opacity: 0.5
+    transition: 0.3s
+
+.nav-btn span,
+.nav-btn span::before,
+.nav-btn span::after
+  position: absolute
+  top: 50%
+  left: 50%
+  width: 20px
+  height: 2px
+  background-color: #fff
+  margin-top: -1px
+  margin-left: -10px
+
+.nav-btn span::before,
+.nav-btn span::after
+  content: ''
+
+.nav-btn span:before
+  transform: translateY(-5px)
+
+.nav-btn span:after
+  transform: translateY(5px)
+
+.header_nav_text_menu
+  font-family: "Montserrat", sans-serif
+  color: #fff
+  font-size: 14px
+
