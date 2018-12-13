@@ -87,6 +87,16 @@
   border: #fff 1px solid
 
   &:hover
-    background-color: #727274
+    background: #727274
     transform: scale(1.1)
     transition: 0.3s
+
+@media (max-width: 768px)
+  //.pricing_item_button:hover
+  //  background: none
+  //  transform: none
+  //  transition: none
+  .pricing_item:hover
+    transform: none
+    transition: none
+    border-top: none
