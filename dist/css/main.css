@@ -632,3 +632,36 @@ header {
     color: #000;
     transition: 0.3s;
     transform: scale(1.2); }
+
+/* FOOTER */
+/* COLOR TEXT */
+/* FULL BLACK */
+/* FULL WHILE */
+/* SILVER */
+/* COLOR BACKGROUND */
+/* FULL WHITE */
+/* SILVER */
+footer {
+  padding: 40px 0; }
+
+.footer-container {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 0; }
+
+.footer_block_logo-copyright {
+  margin-left: 30px; }
+
+.footer-link-fix {
+  display: inline-flex; }
+
+.footer-link-fix-logo-facebook {
+  padding: 6px 10px; }
+
+.footer-link-fix-logo {
+  background-color: #29323c;
+  opacity: 0.8; }
+
+.footer_block_social_text {
+  margin-right: 20px; }
